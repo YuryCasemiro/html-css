@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mídias em HTML5</title>
+    
+</head> 
+<body>
+
+    <h1>Fotos dinâmicas</h1>
+        <p>Tentando abrir o site em vários dispositivos diferentes ou simplesmente aumentanto e diminuindo o tamanho do navegador</p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+                <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+                <img src="imagens/foto-g.png" alt="imagem flexível">
+            </picture>
+                    <h2>Áudio</h2>
+                        <audio preload="metadata" controls>
+                            <source src="audio/irmão do jorel-fa-fa-fa-beethoven.mp3" type="audio/mpeg">
+                            <source src="audio/irmão do jorel-fa-fa-fa-beethoven.mp3" type="audio/ogg">
+                            <source src="audio/irmão do jorel-fa-fa-fa-beethoven.mp3" type="wav">
+                        </audio>
+                        <audio preload="metadata" controls>
+                            <source src="audio/vinheta-xaropinho- rapaz.mp3" type="audio/mpeg">
+                            <source src="audio/vinheta-xaropinho- rapaz.mp3" type="audio/ogg">
+                            <source src="audio/vinheta-xaropinho- rapaz.mp3" type="audio/wav">
+                        </audio>
+                        <video width="560" controls>
+                            <source src="video/4k-jett.mp4.mp4" type="video/webm">
+                            <source src="video/4k-jett.mp4.mp4" type="video/mp4">]
+                            <source src="video/4k-jett.mp4.mp4" type="video/ogg">
+                            </video>
+                                <h1>colocando vídeo do youtube</h1>
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rc03sP7NmQo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+
+</body>
+</html>

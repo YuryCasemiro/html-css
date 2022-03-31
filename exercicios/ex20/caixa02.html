@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgb(72, 72, 255);
+            padding: 1px;
+            margin: 0px;
+        }
+
+        header {
+            color: white;
+            background-color: rgb(116, 116, 253);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            background-color: rgb(0, 202, 0);
+            color: white;
+            padding: 5px;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: red;
+        }
+
+        nav {
+            background-color: green;
+        }
+
+        article > p {
+            color: black;
+        }
+
+        aside {
+            color: white;
+            background-color: rgb(116, 116, 253);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+            text-align: center;
+        }
+
+        main {
+            background-color: aqua;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        #assuntos {
+            background-color: rgb(41, 41, 252);
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        #noticias {
+            background-color: rgb(41, 41, 252);
+            color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+     <header>
+         <h1>Meu site</h1>
+            <nav>
+                <a href="#">#</a>
+                <a href="#">#</a>
+                <a href="#">#</a>
+                <a href="#">#</a>
+                <a href="#">#</a>
+            </nav>
+     </header>
+     <main>
+         <section id="assuntos">
+            <p>Vava tilta todo mundo</p>
+         </section>
+         <section id="noticias">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, perferendis? Totam nostrum voluptatibus dolorem voluptatem quo ipsam pariatur asperiores perspiciatis libero tempora, corrupti a aspernatur eligendi voluptate quibusdam mollitia consequatur.</p>
+                        <aside>
+                            <p>Artigo escrito por José da Silva</p>
+                        </aside>
+            </article>
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga recusandae rem vel similique animi cum ea magnam eaque laboriosam minima dignissimos voluptatem, tempore maiores? Eius laboriosam deserunt aut cum perspiciatis.</p>
+                </article>
+         </section>
+     </main>
+     <footer>
+         Desenvolvido por Yury Casemiro
+     </footer>
+</body>
+</html>
