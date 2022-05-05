@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+a {
+    text-decoration: none;
+}
+
+a.verde:visited {
+    color: green;
+}
+
+a.verde:hover {
+    color: rgb(66, 99, 2);
+    text-decoration: underline;
+}
+
+a.verde:active {
+    color: greenyellow;
+}
+
+a.amarela:visited { 
+    color: rgb(255, 255, 5);
+}
+
+a.amarela:hover {
+    color: rgb(148, 148, 0);
+    text-decoration: underline;
+}
+
+a.amarela:active {
+    color: rgb(235, 235, 79);
+}
+
+a.cinza:visited {
+    color: rgb(110, 110, 110);
+}
+
+a.cinza:hover {
+    color: rgb(66, 66, 66);
+    text-decoration: underline;
+}
+
+a.cinza:active {
+    color: rgb(41, 41, 41);
+}
