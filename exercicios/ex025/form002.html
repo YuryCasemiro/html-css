@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 02</title>
+
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        input {
+            margin: 10px;
+        }
+
+        .vasco:hover {
+            background-color: lightcoral;
+            color: rgb(0, 255, 242);
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Teste</h1>
+
+    <form action="" method="post" autocomplete="on">
+        <div>
+            <label for="iusu">Usuário:</label>
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Digite seu nome." size="10" autocomplete="username">
+        </div>
+
+        <div>
+            <label for="isenha">Senha:</label>
+            <input type="password" name="senha" id="isenha" required placeholder="Digite sua senha." size="10" autocomplete="current-password">
+        </div>
+
+        <div>
+            <input class="vasco" type="submit" value="Enviar">
+            <input class="vasco" type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
