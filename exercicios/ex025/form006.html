@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 06</title>
+</head>
+<body>
+    <h1>Formulário 06</h1>
+    <form action="" method="get" autocomplete="on">
+        <div>
+            <label for="icor">Cor:</label>
+            <input type="color" name="Cor" id="icor">
+        </div>
+
+        <div>
+            <label for="inivil">Nível de satisfação:</label>
+            <input type="range" name="nivel" id="inivel">
+        </div>
+
+        <div>
+            <label for="ifoto">Foto do perfil:</label>
+            <input type="file" name="Foto" id="ifoto"> 
+            <!-- Quando for utilizar o metodo de controle de enviar arquivos tem que usar o metodo POST -->
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
