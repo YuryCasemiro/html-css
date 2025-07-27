@@ -3,36 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flexbox</title>
+    <title>Document</title>
     <style>
-        div.container {
+        .container {
             background-color: lightcyan;
             display: flex;
             flex-flow: row wrap;
-            align-items: flex-start;
-            height: 400px;
         }
 
-        div.item {
+        .item {
             background-color: lightpink;
             border: 1px solid black;
             text-align: center;
             padding: 20px;
+            margin: 10px;
+            flex-basis: 300px;
         }
 
-        div#i1 {
-            align-self: stretch;
+        #i1 {
+            
         }
-
-        div#i2 {
-            align-self: center;
-        }
-
-        div#i3 {
-            align-self: flex-end;
-        }
-
-        
     </style>
 </head>
 <body>
